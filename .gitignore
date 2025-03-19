@@ -2,3 +2,4 @@
 models/*
 audio
 transcribe_copy.py
+processed_videos.txt
