@@ -1,3 +1,4 @@
 *.srt
 models/*
 audio
+transcribe_copy.py
