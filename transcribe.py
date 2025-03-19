@@ -112,7 +112,7 @@ for VIDEO_INPUT in video_files:
     print("🗑️ Temporary audio file deleted.")
 
     # Mark as processed
-    with open(PROCESSED_FILES_LOG, "a") as log_file:
+    with open(PROCESSED_FILES_LOG, "a", encoding="utf-8") as log_file:
         log_file.write(VIDEO_INPUT + "\n")
 
 print("🎉 All videos processed successfully!")
